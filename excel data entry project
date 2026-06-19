@@ -1,0 +1,59 @@
+import tkinter 
+from tkinter import messagebox,ttk
+import openpyxl
+
+
+root = tkinter.Tk()
+root.title('My First App')
+root.geometry("400x500")
+
+file_path = r"D:\cb_regd.xlsx"
+excel_file = openpyxl.load_workbook(file_path)
+excel_sheet = excel_file['testing_1']
+
+
+def get_data():
+    name = name_input.get()
+    email = email_input.get()
+    phone_no = phone_input.get()
+    branch = branch_slt.get()
+
+    if name and email and phone_no and branch:
+        excel_sheet.append([name,email,phone_no,branch])
+        excel_file.save(file_path)
+        messagebox.showinfo('Congratiulations','Data added sucessfully')
+    else:
+        messagebox.showwarning('Paji ki chkr','Sare khane tan bharooooo!!!!')
+        
+
+   
+        
+
+name_label = tkinter.Label(root,text='Enter Name!!!')
+name_label.pack(pady=5)
+name_input = tkinter.Entry(root)
+name_input.pack()
+
+
+email_label = tkinter.Label(root,text='Enter Email!!!')
+email_label.pack(pady=5)
+email_input = tkinter.Entry(root)
+email_input.pack()
+
+
+phone_label = tkinter.Label(root,text='Enter Phone No!!!')
+phone_label.pack(pady=5)
+phone_input = tkinter.Entry(root)
+phone_input.pack()
+
+branches = ['Data Analytics','Data science','Python Developer','Web Develoepr','SEO']
+branch_label = tkinter.Label(root,text='Select yor branch')
+branch_label.pack()
+branch_slt = ttk.Combobox(root,values=branches)
+branch_slt.pack()
+
+
+submit = tkinter.Button(root,text='Submit',command=get_data)
+submit.pack()
+
+root.mainloop()
