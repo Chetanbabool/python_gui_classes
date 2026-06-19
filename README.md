@@ -3,8 +3,8 @@
 ![SQLite](https://img.shields.io/badge/SQLite-Database-orange)
 ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-red)
 
-<h3>👋 Hi, I'm Chetan Babool</h3>h3>
-🚀 Python Developer | Data Science Enthusiast | Python Trainer
+<h2>👋 Hi, I'm Chetan Babool</h2>
+<h4>🚀 Python Developer | Data Science Enthusiast | Python Trainer</h4>
 
 Welcome to my GitHub profile! I am passionate about Python programming, Data Science, and building real-world applications. This repository showcases my learning journey, projects, and practical implementations developed using Python and related technologies.
 
