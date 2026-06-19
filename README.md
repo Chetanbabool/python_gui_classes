@@ -8,7 +8,7 @@
 
 Welcome to my GitHub profile! I am passionate about Python programming, Data Science, and building real-world applications. This repository showcases my learning journey, projects, and practical implementations developed using Python and related technologies.
 
-🛠️ Skills & Technologies
+<h4>🛠️ Skills & Technologies</h4>
 🐍 Python
 🗄️ SQLite & MySQL
 🎨 Tkinter GUI Development
@@ -19,23 +19,25 @@ Welcome to my GitHub profile! I am passionate about Python programming, Data Sci
 📋 OpenPyXL
 💻 VS Code & PyCharm
 📂 Featured Projects
-🎓 Student Management System
+
+
+<h4>🎓 Student Management System</h4>
 
 A desktop application for managing student records using Python, Tkinter, SQLite, and OpenPyXL.
 
-🏦 Bank Management System
+<h4>🏦 Bank Management System</h4>
 
 A banking application featuring account creation, deposits, withdrawals, and transaction management.
 
-🩺 Clinic Management System
+<h4>🩺 Clinic Management System</h4>
 
 A healthcare management application for patient registration and record management.
 
-📝 Registration Form with Excel Automation
+<h4>📝 Registration Form with Excel Automation</h4>
 
 A Tkinter-based registration form that stores data directly into Excel sheets using OpenPyXL.
 
-📈 GitHub Journey
+<h4>📈 GitHub Journey</h4>
 
 Every project in this repository represents a step forward in my learning journey. I believe in learning by building, and I continuously challenge myself by creating practical applications that solve real-world problems.
 
